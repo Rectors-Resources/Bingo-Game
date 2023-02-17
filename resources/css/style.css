@@ -1,0 +1,56 @@
+html {
+    background-color: #13334c;
+    width: 100%;
+    height: 100%;
+}
+* {
+    color: #f6f6e9;
+}
+table {
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+thead {
+    
+}
+th {
+    width: 100rem;
+}
+td {
+    border: 2px solid black;
+    background-color: rgba(88, 80, 80, 0.6);
+}
+header {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#game-area {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    background-color: #005792;
+    
+    
+}
+.da-table {
+    text-align: center;
+    min-width: 50%;
+    width: auto;
+}
+#button-area {
+    text-align: center;
+    min-width: 50%;
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+#button {
+    
+    color: #ffff;
+
+    font-size: 2rem;
+}
+#called-number {
+    
