@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 html {
     background-color: #13334c;
     width: 100%;
@@ -5,14 +6,12 @@ html {
 }
 * {
     color: #f6f6e9;
+    font-family: 'Noto Sans';
 }
 table {
     text-align: center;
     font-size: 2rem;
     border: 2px solid black;
-}
-thead {
-    
 }
 th {
     width: 100rem;
@@ -43,14 +42,30 @@ header {
     min-width: 50%;
     width: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
     grid-template-columns: 1fr;
 }
 #button {
     
     color: #ffff;
-
+    
     font-size: 2rem;
 }
 #called-number {
-    
+    font-size: 4rem;
+   
+}
+#last {
+     border-top: 3px solid black;
+}
+#remainder {
+    border-top: 3px solid black;
+
+}
+#reset {
+    border-top: 3px solid black;
+
+}
+#last-three {
+    font-size: 3rem;
+}
